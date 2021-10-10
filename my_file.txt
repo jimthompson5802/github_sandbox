@@ -7,4 +7,5 @@ feature_a line4 commit 2 feature_b line 4 commit 2 feature_a line 4 post feature
 feature_a line 4.1 post feature_b
 feature_a line4 commit 2 feature_b line 4 commit 2
 feature_b line 3 commit 3
+feature_b line 3.1 commit 4
 feature_b line 4 commit 3
