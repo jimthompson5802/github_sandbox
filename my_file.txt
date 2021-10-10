@@ -5,4 +5,5 @@ feature_a line 2 commit 1 feature_b line 2 commit 1
 feature_a line3 commit 2
 feature_a line4 commit2 feature_b line 4 commit 2
 feature_b line 3 commit 3
+feature_b line 3.1 commit 4
 feature_b line 4 commit 3
