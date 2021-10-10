@@ -19,7 +19,8 @@ git reset <sha1 of last commit to feature_a>
 git add my_file.txt
 git commit -m"feature_b commit squash"
 
-git rebase -i main   # drop feature_a commits, drop earlier commits reduce merge conflicts
+git rebase -i origin/main   # drop feature_a commits, drop earlier commits reduce merge conflicts
+                            # works on both either main or origin/main
 
 
 #  push feature_b to create PR

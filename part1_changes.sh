@@ -4,10 +4,11 @@ set -xe
 # bash script to setup up two "stacked" PR to test out git commands
 
 # set initial starting point
-git checkout main
+#git checkout main
 
 # assume we're starting on main
-git checkout -b feature_a  # do some work on a new branch
+git checkout -b feature_a  origin/main # do some work on a new branch
+                                       # works on both main and origin/main
 cat <<EOF >> my_file.txt
 feature_a line 1 commit 1
 feature_a line 2 commit 1
